@@ -1,0 +1,54 @@
+public class Robo {
+    String nome;
+    String cor;
+    float velocidadeMax;
+    int nivelBateriaAtual;
+    float peso;
+    String tipoTracao;
+    float pesoCargaMax;
+    boolean temAntena;
+    float posicaox;
+    float posicaoy;
+    public static void main(String[] args){
+        Robo obj = new Robo();
+        obj.nome = "R2D2";
+        obj.cor = "branco";
+        obj.peso = 2;
+        obj.velocidadeMax = 6;
+        obj.nivelBateriaAtual = 78;
+        obj.tipoTracao = "esteira";
+        obj.temAntena = true;
+        obj.posicaox = 50;
+        obj.posicaoy = 90;
+        System.out.println("_________ Criando Robo ________");
+        System.out.println("Meu nome: " +obj.nome);
+        System.out.println("Cor do robô: " +obj.cor);
+        System.out.println("Vel Max: " +obj.velocidadeMax);
+        System.out.println("Bateria: " +obj.nivelBateriaAtual);
+        System.out.println("Carga Max: " +obj.pesoCargaMax);
+        System.out.println("Tipo Tração: " +obj.tipoTracao);
+        System.out.println("Antena: " +obj.temAntena);
+        System.out.println("Peso: " +obj.peso);
+        System.out.println("Posicao atual: x " +obj.posicaox+ " y " +obj.posicaoy);
+        Robo obj1 = new Robo();
+        obj1.nome = "T-801";
+        obj1.cor = "vermelho";
+        obj1.velocidadeMax = 9;
+        obj1.nivelBateriaAtual = 50;
+        obj1.tipoTracao = "roda";
+        obj1.temAntena = false;
+        obj1.peso = 5;
+        obj1.posicaox = 30;
+        obj1.posicaoy = 0;
+        System.out.println("_________ Criando Robo ________");
+        System.out.println("Meu nome: " +obj1.nome);
+        System.out.println("Cor do robô: " +obj1.cor);
+        System.out.println("Vel Max: " +obj1.velocidadeMax);
+        System.out.println("Bateria: " +obj1.nivelBateriaAtual);
+        System.out.println("Carga Max: " +obj1.pesoCargaMax);
+        System.out.println("Tipo Tração: " +obj1.tipoTracao);
+        System.out.println("Antena: " +obj1.temAntena);
+        System.out.println("Peso: " +obj1.peso);
+        System.out.println("Posicao atual: x " +obj1.posicaox+ " y " +obj1.posicaoy);
+    }
+}
